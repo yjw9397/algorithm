@@ -1,3 +1,17 @@
+T = int(input())
+
+for i in range(T):
+    a, b = map(int, input().split())
+    c = ''
+    if a > b:
+        c = '>'
+    elif a < b:
+        c = '<'
+    else:
+    	c = '='
+    print(f'#{i+1} {c}')
+
+
 '''
 2070. 큰 놈, 작은 놈, 같은 놈
 
@@ -18,16 +32,3 @@
 #2 =
 #3 >
 '''
-
-T = int(input())
-
-for i in range(T):
-    a, b = map(int, input().split())
-    c = ''
-    if a > b:
-        c = '>'
-    elif a < b:
-        c = '<'
-    else:
-    	c = '='
-    print(f'#{i+1} {c}')

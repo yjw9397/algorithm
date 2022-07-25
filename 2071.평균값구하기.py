@@ -1,3 +1,12 @@
+T = int(input())
+
+for i in range(0, T):
+    j = list(map(int, input().split()))
+    num = i + 1
+    av = round(sum(j)/10)
+    print(f'#{num} {av}')
+
+
 '''
 2071. 평균값 구하기
 
@@ -19,10 +28,3 @@
 #2 29
 #3 27
 '''
-T = int(input())
-
-for i in range(0, T):
-    j = list(map(int, input().split()))
-    num = i + 1
-    av = round(sum(j)/10)
-    print(f'#{num} {av}')
