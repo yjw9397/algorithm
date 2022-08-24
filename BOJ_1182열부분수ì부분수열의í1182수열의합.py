@@ -1,4 +1,3 @@
-'''
 # stack 부분집합 이용 풀이
 N, S = map(int, input().split())
 L = list(map(int, input().split()))
@@ -15,7 +14,7 @@ for i in subsets:
 
 print(cnt)
 ---------------------------------------------------------------------
-'''
+
 # combinations 사용 풀이
 from itertools import combinations
 
